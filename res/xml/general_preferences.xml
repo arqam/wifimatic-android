@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:title="@string/tab_title_options" >
+
+        <org.cprados.wificellmanager.ui.MyCheckBoxPreference
+            android:defaultValue="false"
+            android:key="preference_activate"
+            android:summary="@string/preference_summary_activate"
+            android:summaryOff="@string/preference_summary_activate"
+            android:title="@string/preference_title_activate" 
+            >
+        </org.cprados.wificellmanager.ui.MyCheckBoxPreference>
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:dependency="preference_activate"
+            android:key="preference_add_wifis"
+            android:summary="@string/preference_summary_add_wifis"
+            android:title="@string/preference_title_add_wifis" 
+            >
+        </CheckBoxPreference>
+
+        <ListPreference
+            android:defaultValue="15"
+            android:dependency="preference_activate"
+            android:entries="@array/preference_names_freq"
+            android:entryValues="@array/preferences_values_freq"
+            android:key="preference_frequency"
+            android:summary="@string/preference_summary_freq"
+            android:title="@string/preference_title_freq" 
+            >
+        </ListPreference>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:dependency="preference_activate"
+            android:key="preference_notifications"
+            android:summary="@string/preference_summary_notifications"
+            android:title="@string/preference_title_notifications" 
+            >
+        </CheckBoxPreference>
+
+        <Preference
+            android:dependency="preference_activate"
+            android:key="preference_advanced"
+            android:summary="@string/preference_summary_advanced"
+            android:title="@string/preference_title_advanced" 
+            >
+        </Preference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

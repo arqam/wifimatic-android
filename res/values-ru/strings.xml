@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Tab names -->
+    <string name="tab_title_options">Опции</string>
+    <string name="tab_title_wifi_list">Wi-Fi Сети</string>
+    <string name="tab_title_time_options">Расписание</string>
+    <string name="tab_title_audit_trail">История</string>
+    
+    <!-- Main preferences activity  -->
+    <string name="app_name">Wi-Fi Matic</string>
+    <string name="app_version"><b>Wi-Fi Matic 1.3.4</b></string>   
+    <string name="preference_title_add_wifis">Сохранять Wi-Fi сети</string>
+    <string name="preference_summary_add_wifis">Сохранять новые подключенные Wi-Fi сети</string>
+    <string name="preference_title_freq">Частота проверки</string>
+    <string name="preference_summary_freq">Как часто проверяется местоположение</string>
+    <string name="preference_title_notifications">Показать уведомления</string>
+    <string name="preference_summary_notifications">Уведомлять о каждом действии</string>
+    <string name="preference_title_activate">Включить Wi-Fi Matic</string>
+    <string name="preference_summary_activate">Автоматическое управление Wi-Fi</string>
+    <string name="preference_title_advanced">Дополнительные настройки</string>
+    <string name="preference_summary_advanced">Настройки расширенного использования</string>
+    
+    <!-- Location + wifi state descriptions -->
+    <string name="state_description_in_con">Подключено к %s</string>
+    <plurals name="state_description_in_disc">
+        <item quantity="one">Wi-Fi вкл., около сети</item>
+        <item quantity="other">Wi-Fi выкл., около %d сети</item>
+    </plurals>
+    <plurals name="state_description_in_off">
+        <item quantity="one">Wi-Fi вкл., около сети</item>
+        <item quantity="other">Wi-Fi выкл., около %d сети</item>    
+    </plurals>
+    <string name="state_description_out_disc">Wi-Fi вкл., вне досягаемости</string>
+    <string name="state_description_out_off">Wi-Fi выкл., вне досягаемости</string>
+    <string name="state_description_out_con">Подключено к %s, вне досягаемости</string>
+    <string name="state_description_unk_disc">Wi-Fi вкл., вне сети</string>
+    <string name="state_description_unk_off">Wi-Fi выкл., вне сети</string>
+    <string name="state_description_unk_con">Подключено к %s, вне сети</string>
+    
+    <!-- Location and wifi change events description -->
+    <string name="state_event_description_init">Инициализация</string>
+    <plurals name="state_event_description_in">
+        <item quantity="one">Рядом с сетью Wi-Fi</item>
+        <item quantity="other">Рядом с %d сетью Wi-Fi</item>
+    </plurals>
+    <string name="state_event_description_out">Вне досягаемости Wi-Fi</string>
+    <string name="state_event_description_unk">Вне зоны покрытия</string>
+    <string name="state_event_description_con">Подключено к %s</string>
+    <string name="state_event_description_disc">Wi-Fi вкл.</string>
+    <string name="state_event_description_off">Wi-Fi выкл.</string>
+    
+    <!-- Actions description -->
+    <string name="state_action_description_add">Местоположение Wi-Fi сохранено</string>
+    <string name="state_action_description_on">Активация Wi-Fi</string>
+    <string name="state_action_description_off">Деактивация Wi-Fi</string>    
+    <string name="requested_action_scheduled_on">Запланированная активация Wi-Fi</string>
+    <string name="requested_action_scheduled_off">Запланированная деактивация Wi-Fi</string>       
+    <string name="requested_action_deferred_off">После %d sсекунд разъединения</string>
+    
+    <!-- Wifi list activity  -->
+    <string name="category_title_wifis">Сохранённые сети Wi-Fi</string>
+    <plurals name="preference_summary_wifi">
+        <item quantity="one">%d сота около этой сети Wi-Fi</item>
+        <item quantity="other">%d соты около этой сети  Wi-Fi</item>
+    </plurals>
+    <string name="preference_summary_wifi_disabled">Отключенная сеть Wi-Fi</string>
+    
+    <!-- Buttons bar texts -->                
+    <string name="button_title_enable_wifi">Включить</string>
+    <string name="button_title_disable_wifi">Отключить</string>
+    <string name="button_title_delete_wifi">Забыть</string>
+
+    <!-- Context menu items -->
+    <string name="context_menu_label_edit">Изменить Wi-Fi Сети</string>
+    <string name="context_menu_label_edit_cells">Изменить id вышки сотовой связи</string>
+    <string name="context_menu_shortcut_edit">e</string>
+    <string name="context_menu_label_toggle_wifi_on">Активировать Wi-Fi</string>
+    <string name="context_menu_label_toggle_wifi_off">Деактивировать Wi-Fi</string>
+    <string name="context_menu_shortcut_toggle_wifi">w</string>
+    <string name="context_menu_label_help">Информация</string>
+    <string name="context_menu_shortcut_help">h</string>
+    <string name="toast_label_switching_wifi_off">Деактивация Wi-Fi</string>
+    <string name="toast_label_switching_wifi_on">Активация Wi-Fi</string>
+    
+    <!-- Help About dialog  -->        
+    <string name="activity_about_text_info">Автоматически активирует и деактивирует Wi-Fi Вашего устройства, \
+в зависимости от Вашего местоположения, помогая сохранить заряд батареи и потребление данных \
+через сеть Вашего оператора.\n\n\
+Посвящается моей супруге Эрике :)\n\n\
+Авторское право &#169; 2012, 2013 Carlos Prados\n\
+&lt;wifimatic.app@gmail.com&gt;</string>
+    <string name="button_title_help">Справка</string>
+    <string name="button_title_google_play">Оценить</string>
+    <string name="url_app_site">http://sites.google.com/site/wifimaticapp/</string>
+    <string name="url_google_play_site">http://play.google.com/store/apps/details?id=org.cprados.wificellmanager</string>
+    <string name="url_amazon_marketplace_site">http://www.amazon.com/gp/mas/dl/android?p=org.cprados.wificellmanager</string>
+        
+    <!-- Wifi Actions preferences activity  -->
+    <string name="category_actions_wifi">Действия с этой сетью Wi-Fi</string>
+    <string name="preference_title_action_wifi_on">Авто активировать</string>
+    <string name="preference_summary_action_wifi_on">Активировать Wi-Fi при приближении</string>
+    <string name="preference_title_action_wifi_off">Авто деактивировать</string>
+    <string name="preference_summary_action_wifi_off">Деактивировать Wi-Fi при отдалении</string>
+    <string name="preference_title_action_wifi_add">Добавить новое местоположение</string>
+    <string name="preference_summary_action_wifi_add">Сохранять новые местоположения</string>    
+    <string name="category_title_cells">Сохранённые местоположения</string>
+    <string name="preference_title_cell_description">Вышка сотовой связи: %1$d-%2$d</string>
+    <string name="preference_summary_cell_description">Id вышки сотовой связи GSM/WCDMA/CDMA</string>
+    <string name="preference_summary_cell_disabled">Отключенный id вышки сотовой связи</string>    
+    
+    <!-- Time Interval Preferences activity  -->
+    <string name="preference_title_time_interval_enable">План активации</string>
+    <string name="preference_summary_time_interval_enable">Ежедневное расписание деактивации Wi-Fi</string>    
+    <string name="preference_title_time_interval_begin">Время деактивации</string>
+    <string name="preference_summary_time_interval_begin">Деактивировать Wi-Fi в:</string>
+    <string name="preference_title_time_interval_end">Время реактивации</string>
+    <string name="preference_summary_time_interval_end">Реактивировать, если рядом с сетью, в:</string>    
+    <string name="preference_button_time_set">ОК</string>
+    <string name="preference_button_time_cancel">Отмена</string>
+    
+    <!-- Advanced Preferences activity -->
+    <string name="categoty_title_location">Проверка местоположения</string>        
+    <string name="preference_title_turn_on_screen">Включить экран</string>    
+    <string name="preference_summary_turn_on_screen">Включить экран во время проверки</string>
+    <string name="preference_title_force_update_location">Принудительное обновление местоположения</string>    
+    <string name="preference_summary_force_update_location">Требуется последнее местоположение</string>
+    <string name="dialog_text_turn_on_screen">В некоторых устройствах невозможно получить информацию об обновлённом \
+местоположении, когда экран отключен.\n\n\
+С этой опцией экран будет немедленно включаться во время проверки местоположения.\n\n\
+Попробуйте эти опции, если оставшись на время проверки в одном местоположении, \
+Wi-Fi включается или отключается автоматически только тогда, когда экран включен вручную.</string>    
+    <string name="dialog_text_force_update_location">В некоторых устройствах невозможно получить информацию об обновлённом \
+местоположении, когда экран отключен.\n\n\
+Эта опция принуждает Android обновлять информацию о местоположении с отключенным экраном.\n\n\
+Попробуйте эти опции, если оставшись на время проверки в одном местоположении, \
+Wi-Fi включается или отключается автоматически только тогда, когда экран включен вручную.</string>    
+    <string name="dialog_button_confirm_preference_ok">ОК</string>
+    <string name="dialog_button_confirm_preference_cancel">Отмена</string>    
+    <string name="categoty_title_advanced_behavior">Дополнительные настройки поведения</string>
+    <string name="preference_title_off_after_disc_timeout">Тайм-аут разъединения</string>
+    <string name="preference_summary_off_after_disc_timeout">Выключить Wi-Fi после разъединения</string> 
+    <string name="dialog_text_off_after_disc_timeout"><b>Экспериментально.</b> С этой опцией, Wi-Fi будет выключен после определённого времени разъединения. \
+Это сократит время на отключение Wi-Fi при отдалении от досягаемости Wi-Fi.\n\n\
+Однако это может быть не такой хорошей идеей, как кажется, так как Wi-Fi не будет включен автоматически, если Вы вернётесь в зону досягаемости Wi-Fi при этом, не покидая местоположения, где Wi-Fi была зарегистрирована.</string>
+    <string name="preference_title_mobile_data_managed">Выключить мобильные данные</string>
+    <string name="preference_summary_mobile_data_managed">При подключении к известной Wi-Fi</string>
+    <string name="dialog_text_mobile_data_managed"><b>Важное Предупреждение.</b> С этой опцией, если настройка мобильных данных была включена вручную, то она будет деактивирована во время подключения к известной Wi-Fi сети и будет включена опять после разъединения от Wi-Fi.\n\n\
+Включение мобильных данных может отразиться на дополнительных расходах на вашем счету. Используйте эту опцию на свой страх и риск.</string>
+    <string name="preference_title_unk_location_activates_wifi">Активировать Wi-Fi если нет зоны покрытия</string>   
+    <string name="preference_summary_unk_location_activates_wifi">Активировать в местах вне зоны покрытия мобильной связи</string>
+    <string name="dialog_text_unk_location_activates_wifi">Wi-Fi Matic требует покрытия мобильной сети, чтобы узнать местоположение устройства. С этой опцией Wi-Fi будет активирован во всех местах, где устройство выходит из зоны покрытия мобильной связи.\n\n\
+Это может оказаться лучшей опцией, если у Вас нет никакой зоны покрытия связи там, где Ваша Wi-Fi сеть, хотя это может увеличить расход батареи.</string>
+    
+    <!-- Welcome dialog -->
+    <string name="dialog_text_welcome_1"><b>Добро пожаловать в Wi-Fi Matic!</b>\n\n\
+Wi-Fi Matic автоматически активирует и деактивирует Wi-Fi вашего устройства, в зависимости от Вашего местоположения, помогая сохранить заряд батареи и потребление данных \
+через сеть Вашего оператора.\n\n\
+Этот мастер поможет Вам настроить Wi-Fi Matic в три простых шага.</string>
+    <string name="dialog_text_welcome_2"><b>Шаг 1:</b>\n\nВыберите <b>Включить Wi-Fi Matic</b> чтобы автоматически активировать и деактивировать Wi-Fi Вашего устройства.</string>
+    <string name="dialog_text_welcome_3a"><b>Шаг 2:</b>\n\nСейчас Вы не подключены ни к одной Wi-Fi сети. Выберите <b>Настройки Wi-Fi</b> чтобы присоединиться к доступной сети и позволить Wi-Fi Matic сохранить её местоположение. Нажмите кнопку назад, когда закончите.\n\n\
+Вы можете сделать это позднее из <b>Настройки -&gt; Сеть</b> меню Android.</string>
+    <string name="dialog_text_welcome_3b">&lt;b&gt;Шаг 2:&lt;/b&gt;&lt;br&gt;&lt;br&gt;Сейчас Вы подключены к Wi-Fi сети: &lt;b&gt;%s&lt;/b&gt;.&lt;br&gt;&lt;br&gt;Wi-Fi Matic сохранит её местоположение.</string>    
+    <string name="dialog_text_welcome_4"><b>Шаг 3:</b>\n\nИ это - всё! Выберите <b>Завершить</b> чтобы выйти из этого мастера и вернуться в Wi-Fi Matic.\n\n\
+За информацией вы можете обратиться в раздел <b>Информация</b> из меню приложения.</string>
+    <string name="dialog_button_welcome_next">Вперёд &gt;&gt;</string>
+    <string name="dialog_button_welcome_back">&lt;&lt; Назад</string>
+    <string name="dialog_button_welcome_finish">Завершить</string>
+    <string name="dialog_text_welcome_activate"><b>Включить Wi-Fi Matic:</b></string>    
+    <string name="dialog_text_welcome_wifi_settings"><b>Настройки Wi-Fi:</b></string>
+    <string name="dialog_text_welcome_dont_show"><b>Не показывать снова:</b></string>       
+    
+    <!-- Audit trail activity  -->
+    <string name="activity_audit_trail_footer_title">Коснитесь, чтобы увидеть больше</string>
+    <string name="activity_audit_trail_footer_summary">Показ событий до %s</string>
+    <string name="activity_audit_trail_empty">История пуста</string>
+    
+    <!-- Donate activity -->
+    <string name="preference_donate_title">Внесите пожертвование</string>
+    <string name="preference_donate_summary">Пожалуйста, внесите пожертвование в Google Play чтобы включить Историю</string>
+    <string name="market_billing_donation_sku2">org.cprados.wificellmanager.donation</string>
+    <string name="preference_history_example_title">Смотреть пример</string>
+    <string name="preference_history_example_summary">Посмотрите, как будет выглядеть вкладка История</string>   
+    <string name="url_history_example">https://sites.google.com/site/wifimaticapp/#History</string> 
+    
+</resources>

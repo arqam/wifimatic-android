@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"  
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"> 
+
+    <TextView
+        android:id="@+id/dialog_welcome_extra_text"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:clickable="true"
+        android:layout_marginTop="3dip"                 
+        android:text="@string/app_name" />
+
+    <ImageButton
+        android:id="@+id/dialog_welcome_extra_button"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="12dip"  
+        android:layout_marginTop="3dip"                 
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:contentDescription="@string/app_name" />
+
+    <CheckBox
+        android:id="@+id/dialog_welcome_extra_toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="12dip"
+        android:layout_marginTop="3dip"                         
+        android:contentDescription="@string/app_name"
+        android:visibility="gone"/>
+             
+</LinearLayout>

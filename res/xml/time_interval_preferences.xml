@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:title="@string/tab_title_time_options" >
+    
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="preference_time_interval_enable"
+            android:summary="@string/preference_summary_time_interval_enable"
+            android:title="@string/preference_title_time_interval_enable" 
+            >
+        </CheckBoxPreference>
+
+        <org.cprados.wificellmanager.ui.TimePreference
+            android:defaultValue="00:00"
+            android:dependency="preference_time_interval_enable"
+            android:dialogIcon="@drawable/ic_dialog_time_white"
+            android:key="preference_time_interval_begin"
+            android:negativeButtonText="@string/preference_button_time_cancel"
+            android:positiveButtonText="@string/preference_button_time_set"
+            android:summary="@string/preference_summary_time_interval_begin"
+            android:title="@string/preference_title_time_interval_begin" 
+            >
+        </org.cprados.wificellmanager.ui.TimePreference>
+        
+        <org.cprados.wificellmanager.ui.TimePreference
+            android:defaultValue="07:00"
+            android:dependency="preference_time_interval_enable"
+            android:dialogIcon="@drawable/ic_dialog_time_white"
+            android:key="preference_time_interval_end"
+            android:negativeButtonText="@string/preference_button_time_cancel"
+            android:positiveButtonText="@string/preference_button_time_set"
+            android:summary="@string/preference_summary_time_interval_end"
+            android:title="@string/preference_title_time_interval_end"
+            >
+        </org.cprados.wificellmanager.ui.TimePreference>
+    
+    </PreferenceCategory>
+
+</PreferenceScreen>

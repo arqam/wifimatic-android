@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="preference_names_freq">
+        <item>1 Minute</item>
+        <item>5 Minuten</item>
+        <item>15 Minuten</item>
+        <item>30 Minuten</item>
+        <item>1 Stunde</item>
+    </string-array>
+    <string-array name="preferences_values_freq">
+        <item>1</item>
+        <item>5</item>
+        <item>15</item>        
+        <item>30</item>
+        <item>60</item>
+    </string-array>
+    <string-array name="preference_names_timeout_after_disc">
+        <item>Deaktiviert</item>
+        <item>30 Sekunden</item>
+        <item>1 Minuten</item>
+        <item>2 Minuten</item>
+        <item>5 Minuten</item>
+    </string-array>
+    <string-array name="preference_values_timeout_after_disc">
+        <item>0</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>360</item>
+    </string-array>
+</resources>

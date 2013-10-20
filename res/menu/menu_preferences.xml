@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/context_menu_label_edit" 
+        android:alphabeticShortcut="@string/context_menu_shortcut_edit" 
+        android:id="@+id/context_menu_edit" 
+        android:icon="@drawable/ic_menu_edit">
+    </item>
+    <item android:title="@string/context_menu_label_toggle_wifi_on" 
+        android:alphabeticShortcut="@string/context_menu_shortcut_toggle_wifi" 
+        android:id="@+id/context_menu_toggle_wifi" 
+        android:icon="@drawable/ic_menu_toggle_wifi">
+    </item>
+    <item android:title="@string/context_menu_label_help" 
+        android:alphabeticShortcut="@string/context_menu_shortcut_help" 
+        android:id="@+id/context_menu_help" 
+        android:icon="@drawable/ic_menu_help">
+    </item>
+</menu>

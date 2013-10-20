@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:title="@string/tab_title_audit_trail" >
+        
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="preference_has_donated"
+            android:summary="@string/preference_donate_summary"
+            android:title="@string/preference_donate_title" 
+            android:layout="@layout/preference">
+        </CheckBoxPreference>
+        
+        <Preference 
+            android:key="preference_history_example"
+            android:title="@string/preference_history_example_title"
+            android:summary="@string/preference_history_example_summary"           
+            android:layout="@layout/preference">
+        </Preference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

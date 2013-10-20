@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="category_actions_wifi_"
+        android:title="@string/category_actions_wifi" >
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="preference_action_wifi_ON_"
+            android:persistent="false"
+            android:summary="@string/preference_summary_action_wifi_on"
+            android:title="@string/preference_title_action_wifi_on" 
+            android:layout="@layout/preference">
+        </CheckBoxPreference>
+        
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="preference_action_wifi_OFF_"
+            android:persistent="false"
+            android:summary="@string/preference_summary_action_wifi_off"
+            android:title="@string/preference_title_action_wifi_off" 
+            android:layout="@layout/preference">
+        </CheckBoxPreference>
+        
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="preference_action_wifi_ADD_"
+            android:persistent="false"
+            android:summary="@string/preference_summary_action_wifi_add"
+            android:title="@string/preference_title_action_wifi_add" 
+            android:layout="@layout/preference">
+        </CheckBoxPreference>
+    
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:key="category_cells_"
+        android:title="@string/category_title_cells" />
+
+</PreferenceScreen>

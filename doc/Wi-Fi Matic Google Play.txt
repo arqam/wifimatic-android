@@ -1,0 +1,37 @@
+Important: this app is not designed to reveal Wi-Fi passwords, neither to help you to set up your phone to connect to a Wi-Fi for the first time. Please, read carefully the description and if it is not what you are looking for, do not download it.
+
+Wi-Fi Matic activates and deactivates Wi-Fi of your device automatically depending on your location, helping you to save battery and consumption of data through your operator network.
+
+It detects automatically the location of known Wi-Fi networks (f.i: home, office, etc.), turns on W-Fi when you arrive a place where there is Wi-Fi, and turns it off when you leave.
+
+You will simply notice that your device automatically uses Wi-Fi in the usual places where you have Wi-Fi access, while it keeps Wi-Fi off where you don't have it.
+
+- How does it work?
+
+It DOES NOT USE GPS neither requires to have Android network location services enabled, as it uses your operator network cell identifiers (cell tower identifiers) as the relative location where you are, and where your Wi-Fi networks are. It is designed to minimize usage of resources and battery. 
+
+Wi-Fi Matic detects and learns automatically locations where you are connected to a Wi-Fi, and doesn't need configuration. Besides, it allows you to manage manually your Wi-Fi when needed not interfering with you or with your device data connections.
+
+- How is it used?
+
+1.- Once it is installed, click on "Enable Wi-Fi Matic" and leave the app in the background. 
+
+2.- Whenever you want to connect to a Wi-Fi for the first time, do it manually in the Android Wireless networks settings menu, or just let Android connect to any of the networks already known by your device.
+
+3.- And that's it: Wi-Fi Matic will learn your Wi-Fi location when you get connected. Whenever you leave that place, Wi-Fi will be automatically turned off and whenever you get back, Wi-Fi will be automatically turned on.
+
+See: https://sites.google.com/site/wifimaticapp/
+
+Articles:
+
+http://www.emezeta.com/articulos/como-reducir-el-consumo-de-datos-en-android#axzz2CZMHWknK
+
+http://www.dragonazul.es/review/las-10-mejores-aplicaciones-gratuitas-para-android/2/
+
+http://justinbee.tumblr.com/post/24618702269/common-sense-android-app-wi-fi-matic
+
+http://www.mundoandroides.com/como-ahorrar-internet-en-tu-android
+
+http://www.eleconomista.es/CanalPDA/2012/36403/10-trucos-para-reducir-el-consumo-de-datos-en-android/
+
+keywords: wi-fi wifi wireless automatic turn on off location positioning detection scheduler

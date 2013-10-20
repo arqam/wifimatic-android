@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="12dip"
+    android:paddingLeft="14dip"
+    android:paddingRight="10dip"
+    android:paddingTop="2dip" >
+
+    <LinearLayout
+        android:id="@+id/alert_dialog_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:padding="5dip">
+
+        <TextView
+            android:id="@+id/alert_dialog_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="web|email"/>
+
+    </LinearLayout>
+
+</ScrollView>

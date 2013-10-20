@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+    <color name="color_background_buttons_bar">#ff444444</color>
+    <color name="color_audit_trail_yellow">#D39622</color>
+    <color name="color_audit_trail_green">#417A00</color>
+    <color name="color_audit_trail_red">#B22900</color>
+</resources>

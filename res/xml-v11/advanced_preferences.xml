@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/preference_title_advanced" >
+
+    <PreferenceCategory
+        android:title="@string/categoty_title_location" >
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="preference_force_update_location"
+            android:summary="@string/preference_summary_force_update_location"
+            android:title="@string/preference_title_force_update_location" 
+            android:layout="@layout/preference">
+        </CheckBoxPreference>
+        
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="preference_turn_on_screen"
+            android:summary="@string/preference_summary_turn_on_screen"
+            android:title="@string/preference_title_turn_on_screen" 
+            android:layout="@layout/preference">
+        </CheckBoxPreference>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="preference_unk_location_activates_wifi"
+            android:summary="@string/preference_summary_unk_location_activates_wifi"
+            android:title="@string/preference_title_unk_location_activates_wifi" 
+            android:layout="@layout/preference">
+        </CheckBoxPreference>
+                
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:key="category_advanced_behavior"
+        android:title="@string/categoty_title_advanced_behavior" >
+    
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/preference_names_timeout_after_disc"
+            android:entryValues="@array/preference_values_timeout_after_disc"            
+            android:key="preference_off_after_disc_timeout"
+            android:summary="@string/preference_summary_off_after_disc_timeout"
+            android:title="@string/preference_title_off_after_disc_timeout" 
+            android:layout="@layout/preference">
+        </ListPreference>
+                
+        <CheckBoxPreference
+            android:key="preference_mobile_data_managed"
+            android:defaultValue="false"
+            android:summary="@string/preference_summary_mobile_data_managed"
+            android:title="@string/preference_title_mobile_data_managed" 
+            android:layout="@layout/preference">
+        </CheckBoxPreference>
+                                        
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Tab names -->
+    <string name="tab_title_options">Options</string>
+    <string name="tab_title_wifi_list">Wi-Fis</string>
+    <string name="tab_title_time_options">Planifier</string>
+    <string name="tab_title_audit_trail">Historique</string>
+    
+    <!-- Main preferences activity  -->
+    <string name="app_name">Wi-Fi Matic</string>
+    <string name="app_version"><b>Wi-Fi Matic 1.3.4</b></string>   
+    <string name="preference_title_add_wifis">Mémoriser Wi-Fis</string>
+    <string name="preference_summary_add_wifis">Mémoriser nouveaux Wi-Fis</string>
+    <string name="preference_title_freq">Fréquence de vérification</string>
+    <string name="preference_summary_freq">Fréquence de verification de la postion</string>
+    <string name="preference_title_notifications">Afficher notifications</string>
+    <string name="preference_summary_notifications">Notifier chaque action</string>
+    <string name="preference_title_activate">Activer Wi-Fi Matic</string>
+    <string name="preference_summary_activate">Activer gestion automatique du wifi</string>
+    <string name="preference_title_advanced">Préférences avancées</string>
+    <string name="preference_summary_advanced">Préférences d’utilisation avancées</string>
+    
+    <!-- Location + wifi state descriptions -->
+    <string name="state_description_in_con">Connecté à %s</string>
+    <plurals name="state_description_in_disc">
+        <item quantity="one">Wi-Fi activé, près d’un réseau</item>
+        <item quantity="other">Wi-Fi active près de %d réseaux</item>
+    </plurals>
+    <plurals name="state_description_in_off">
+        <item quantity="one">Wi-Fi désactivé près d’un réseau</item>
+        <item quantity="other">Wi-Fi désactivé près de %d réseaux</item>    
+    </plurals>
+    <string name="state_description_out_disc">Wi-Fi activé, hors de portée</string>
+    <string name="state_description_out_off">Wi-Fi désactivé, hors de portée</string>
+    <string name="state_description_out_con">Connecté à %s, hors de portée</string>
+    <string name="state_description_unk_disc">Wi-Fi active, hors couverture</string>
+    <string name="state_description_unk_off">Wi-Fi active, hors couverture</string>
+    <string name="state_description_unk_con">Connecté à %s, hors couverture</string>
+    
+    <!-- Location and wifi change events description -->
+    <string name="state_event_description_init">Initialisation</string>
+    <plurals name="state_event_description_in">
+        <item quantity="one">Près d’un réseau Wi-Fi</item>
+        <item quantity="other">Près de %d réseaux wifi</item>
+    </plurals>
+    <string name="state_event_description_out">Wi-Fi hors de portée</string>
+    <string name="state_event_description_unk">Hors couverture</string>
+    <string name="state_event_description_con">Connecté à %s</string>
+    <string name="state_event_description_disc">Wi-Fi active</string>
+    <string name="state_event_description_off">Wi-Fi désactivé</string>
+    
+    <!-- Actions description -->
+    <string name="state_action_description_add">Position Wi-Fi mémorisée</string>
+    <string name="state_action_description_on">Activation du Wi-Fi</string>
+    <string name="state_action_description_off">Désactivation du Wi-Fi</string>    
+    <string name="requested_action_scheduled_on">Planifier activation Wi-Fi</string>
+    <string name="requested_action_scheduled_off">Planifier désactivation Wi-Fi</string>       
+    <string name="requested_action_deferred_off">%d secondes après déconnexion</string>
+    
+    <!-- Wifi list activity  -->
+    <string name="category_title_wifis">Réseaux Wi-Fi mémorisés</string>
+    <plurals name="preference_summary_wifi">
+        <item quantity="one">%d antenne proche de ce Wi-Fi</item>
+        <item quantity="other">%d antennes proches de ce Wi-Fi</item>
+    </plurals>
+    <string name="preference_summary_wifi_disabled">Ignoré réseau Wi-Fi</string>
+    
+    <!-- Buttons bar texts -->                
+    <string name="button_title_enable_wifi">Garder</string>
+    <string name="button_title_disable_wifi">Ignorer</string>
+    <string name="button_title_delete_wifi">Oublié</string>
+
+    <!-- Context menu items -->
+    <string name="context_menu_label_edit">Modifier Wi-Fis</string>
+    <string name="context_menu_label_edit_cells">Modifier positions mémorisées</string>
+    <string name="context_menu_shortcut_edit">e</string>
+    <string name="context_menu_label_toggle_wifi_on">Activer Wi-Fi</string>
+    <string name="context_menu_label_toggle_wifi_off">Désactiver Wi-Fi</string>
+    <string name="context_menu_shortcut_toggle_wifi">w</string>
+    <string name="context_menu_label_help">Info</string>
+    <string name="context_menu_shortcut_help">h</string>
+    <string name="toast_label_switching_wifi_off">Désactivation Wi-Fi</string>
+    <string name="toast_label_switching_wifi_on">Activation Wi-Fi</string>
+    
+    <!-- Help About dialog  -->        
+    <string name="activity_about_text_info">Active et désactive automatiquement le Wi-Fi de votre téléphone, \
+en fonction de votre position, économise de la batterie et réduit la consommation de données data \
+qui passent par le réseau de votre opérateur.\n\n\
+Pour ma femme Erica :-)\n\n\
+Copyright &#169; 2012, 2013 Carlos Prados\n\
+&lt;wifimatic.app@gmail.com&gt;</string>
+    <string name="button_title_help">Aide</string>
+    <string name="button_title_google_play">Noter</string>
+    <string name="url_app_site">http://sites.google.com/site/wifimaticapp/</string>
+    <string name="url_google_play_site">http://play.google.com/store/apps/details?id=org.cprados.wificellmanager</string>
+    <string name="url_amazon_marketplace_site">http://www.amazon.com/gp/mas/dl/android?p=org.cprados.wificellmanager</string>
+
+    <!-- Wifi Actions preferences activity  -->
+    <string name="category_actions_wifi">Actions avec ce Wi-Fi</string>
+    <string name="preference_title_action_wifi_on">Activation automatique</string>
+    <string name="preference_summary_action_wifi_on">Activer le Wi-Fi à l’arrivée</string>
+    <string name="preference_title_action_wifi_off">Désactivation automatique</string>
+    <string name="preference_summary_action_wifi_off">Désactive le Wi-Fi au départ</string>
+    <string name="preference_title_action_wifi_add">Ajouter nouvelles positions</string>
+    <string name="preference_summary_action_wifi_add">Mémoriser nouvelles positions</string>    
+    <string name="category_title_cells">Positions mémorisées</string>
+    <string name="preference_title_cell_description">Antenne: %1$d-%2$d</string>
+    <string name="preference_summary_cell_description">GSM/WCDMA/CDMA identification antenne</string>
+    <string name="preference_summary_cell_disabled">Ignoré identification antenne</string>    
+    
+    <!-- Time Interval Preferences activity  -->
+    <string name="preference_title_time_interval_enable">Planifier la désactivation</string>
+    <string name="preference_summary_time_interval_enable">Planifier la désactivation quotidienne du wifi</string>    
+    <string name="preference_title_time_interval_begin">Heure de désactivation</string>
+    <string name="preference_summary_time_interval_begin">Désactiver wifi à:</string>
+    <string name="preference_title_time_interval_end">Heure de réactivation</string>
+    <string name="preference_summary_time_interval_end">Réactiver, si près d’un réseau, à:</string>    
+    <string name="preference_button_time_set">OK</string>
+    <string name="preference_button_time_cancel">Annuler</string>
+    
+    <!-- Advanced Preferences activity -->
+    <string name="categoty_title_location">Recherche de la position</string>        
+    <string name="preference_title_turn_on_screen">Allumer l’écran</string>    
+    <string name="preference_summary_turn_on_screen">Rechercher position écran allumé</string>
+    <string name="preference_title_force_update_location">Forcer le rafraîchissement de la position</string>    
+    <string name="preference_summary_force_update_location">Position la plus récente requise</string>
+    <string name="dialog_text_turn_on_screen">Il n’est pas possible de mettre la position à jour sur certains telephones \
+si l’écran est éteint.\n\n\
+Cette option permet d’allumer l’écran instantanément pendant la recherche de position.\n\n\
+Essayez cette option uniquement après être resté un certain temps au même endroit, \
+le Wi-Fi n’est pas automatiquement activé ou désactivé quand l’écran est allumé manuellement.</string>    
+    <string name="dialog_text_force_update_location">Il n’est pas possible de mettre la position à jour sur certains telephones \
+si l’écran est éteint.\n\n\
+Cette option force Android à rafraîchir la position avec l’écran éteint.\n\n\
+Essayez cette option uniquement après être resté un certain temps au même endroit, \
+le Wi-Fi n’est pas automatiquement activé ou désactivé quand l’écran est allumé manuellement.</string>    
+    <string name="dialog_button_confirm_preference_ok">OK</string>
+    <string name="dialog_button_confirm_preference_cancel">Annuler</string>    
+    <string name="categoty_title_advanced_behavior">Preferences avancées</string>
+    <string name="preference_title_off_after_disc_timeout">Temps avant déconnexion</string>
+    <string name="preference_summary_off_after_disc_timeout">Désactive le wifi après déconnexion</string>
+    <string name="dialog_text_off_after_disc_timeout"><b>Expérimental.</b> Avec cette preference, le Wi-Fi s’éteindra un certain labs de temps après avoir été déconnecté. \
+Cela réduira le temps nécessaire à éteindre le Wi-Fi lorsque le telephone ne capte plus.\n\n\
+Cependant cela peut ne pas être une bonne idée dans la mesure où le wifi ne se rallumera pas automatiquement si vous retournez dans la zone de portée du réseau wifi sans avoir quitté le lieu dans lequel le réseau est enregistré au préalable.</string>
+    <string name="preference_title_mobile_data_managed">Désactiver les données mobiles</string>
+    <string name="preference_summary_mobile_data_managed">Si connecté à un réseau Wi-Fi connu</string>
+    <string name="dialog_text_mobile_data_managed"><b>Avertissement important.</b> Avec cette option, si le paramètre de données mobile est initialement activé, il sera désactivé en étant connecté à un réseau Wi-Fi connu et il sera activé dos après qu\'il est débranché de connexion Wi-Fi.\n\n\
+Les données mobiles peuvent entraîner des frais supplémentaires à votre compte. Utilisez cette option à vos propres risques.</string>
+    <string name="preference_title_unk_location_activates_wifi">Activer Wi-Fi si aucune couverture</string>   
+    <string name="preference_summary_unk_location_activates_wifi">Activez dans des endroits sans couverture mobile</string>
+    <string name="dialog_text_unk_location_activates_wifi">Wi-Fi Matic a besoin de la couverture mobile de savoir où votre appareil est. Avec cette option Wi-Fi est activé dans tous les lieux où le dispositif perd la couverture du réseau mobile.\n\n\
+Cela pourrait être la meilleure option si vous n\'avez pas de couverture où votre réseau Wi-Fi, mais il pourrait augmenter utilisation de la batterie.</string>
+    
+    <!-- Welcome dialog -->
+    <string name="dialog_text_welcome_1"><b>Bienvenue sur Wi-Fi Matic!</b>\n\n\
+Wi-Fi Matic Active et désactive automatiquement le wifi de votre téléphone, en fonction de votre position, économise de la batterie et réduit la consommation de données data \
+qui passent par le réseau de votre opérateur.\n\n\
+Cet assistant vous aidera à configurer Wi-Fi Matic en 3 étapes.</string>
+    <string name="dialog_text_welcome_2"><b>Etape 1:</b>\n\nSélectionnez <b>Activer Wi-Fi Matic</b> pour activer et désactiver automatiquement le wifi sur votre téléphone.</string>
+    <string name="dialog_text_welcome_3a"><b>Etape 2:</b>\n\nVous n’êtes connecté à aucun réseau. Sélectionnez <b>Paramètre Wi-Fi</b> Pour vous connecter à un réseau dont vous avez accès et laisser Wi-Fi Matic mémoriser sa postion. Appuyez sur Retour quand c’est fait.\n\n\
+Vous pouvez le faire plus tard depuis <b>Paramètres -&gt; Sans fil et réseaux</b> dans le menu Android.</string>
+    <string name="dialog_text_welcome_3b">&lt;b&gt;Etape 2:&lt;/b&gt;&lt;br&gt;&lt;br&gt;Vous êtes connecté au réseau: &lt;b&gt;%s&lt;/b&gt;.&lt;br&gt;&lt;br&gt;Wi-Fi Matic se rappellera de l’emplacement.</string>    
+    <string name="dialog_text_welcome_4"><b>Etape 3:</b>\n\nEt c’est tout! Sélectionnez <b>Terminer</b> pour quitter cet assistant et retourner à Wi-Fi Matic.\n\n\
+Pour plus d’information vous pouvez aller sur <b>Info</b> depuis le menu de l’application.</string>
+    <string name="dialog_button_welcome_next">Suivant &gt;&gt;</string>
+    <string name="dialog_button_welcome_back">&lt;&lt; Retour</string>
+    <string name="dialog_button_welcome_finish">Terminer</string>
+    <string name="dialog_text_welcome_activate"><b>Activer Wi-Fi Matic:</b></string>    
+    <string name="dialog_text_welcome_wifi_settings"><b>Paramètres Wi-Fi:</b></string>
+    <string name="dialog_text_welcome_dont_show"><b>Ne plus afficher:</b></string>       
+    
+    <!-- Audit trail activity  -->
+    <string name="activity_audit_trail_footer_title">Appuyez pour en savoir plus</string>
+    <string name="activity_audit_trail_footer_summary">Afficher l’historique jusqu’à %s</string>
+    <string name="activity_audit_trail_empty">L’historique est vide</string>
+    
+    <!-- Donate activity -->
+    <string name="preference_donate_title">Faire un don</string>
+    <string name="preference_donate_summary">Faire un don sur Google Play pour activer l’historique</string>
+    <string name="market_billing_donation_sku2">org.cprados.wificellmanager.donation</string>
+    <string name="preference_history_example_title">Voir un exemple</string>
+    <string name="preference_history_example_summary">Voir un exemple de l’historique</string>   
+    <string name="url_history_example">https://sites.google.com/site/wifimaticapp/#History</string> 
+    
+</resources>

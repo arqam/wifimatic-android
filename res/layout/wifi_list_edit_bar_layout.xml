@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bar_edit"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_background_buttons_bar"
+    android:orientation="horizontal"
+    android:paddingBottom="5dip"
+    android:paddingLeft="5dip"
+    android:paddingRight="5dip"
+    android:paddingTop="5dip"
+    android:visibility="gone">
+
+    <Button
+        android:id="@+id/button_enable_wifis"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/ic_menu_enable"
+        android:text="@string/button_title_enable_wifi" >
+    </Button>
+
+    <Button
+        android:id="@+id/button_delete_wifis"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/ic_menu_delete"
+        android:text="@string/button_title_delete_wifi" >
+    </Button>
+
+</LinearLayout>
