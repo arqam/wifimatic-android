@@ -1,6 +1,4 @@
-﻿
-
-1.2.1 
+﻿1.2.1 
 - Added a schedule to turn off Wi-Fi during an interval of the day (f.i. during the nights).
 - Added advanced preferences for specific devices where cell location is not made available by Android until the screen is turned on. Only needed if in your device Wi-Fi is never turned on/off untill you turn on screen.
 - Added preference to autoturn off Wi-Fi after a certain time of being disconnected. 
@@ -29,10 +27,14 @@
 - Dutch translation (Thanks to Eelco Dijkstra, dedicated to his wife Sandra).
 
 1.3.4:
-- Wi-Fi Matic is now opensource! Check https://github.com/cprados/wifimatic-android
-- Option to decide what to when loosing mobile coverage and location is unknown.
+- Wi-Fi Matic is now opensource! Check http://github.com/cprados/wifimatic-android
+- Option to decide what to do when mobile coverage is lost (location is unknown).
 - Russian Translation (thanks to Alexander Krasnobelov).
 - Fixed problem with scheduled Wi-Fi on/off.
 - Fixed problem of not detecting coverage loss correctly under Android 4.2 with LTE.
 - Explicitly require a SIM enabled phone/tablet to be eligible in Google Play.
 - Fixed problem when cancelling Access Point mode activation.
+
+1.3.5:
+- Removed telephony enabled device as compatibility requirement.
+- Corrected typo in German Translation.

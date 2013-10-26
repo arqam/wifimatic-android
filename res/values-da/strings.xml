@@ -9,7 +9,7 @@
     
     <!-- Main preferences activity  -->
     <string name="app_name">Wi-Fi Matic</string>
-    <string name="app_version"><b>Wi-Fi Matic 1.3.4</b></string>   
+    <string name="app_version"><b>Wi-Fi Matic 1.3.5</b></string>   
     <string name="preference_title_add_wifis">Husk Wi-Fi\'s</string>
     <string name="preference_summary_add_wifis">Husk nye tilsluttede Wi-Fi\'s</string>
     <string name="preference_title_freq">Tjek frekvens</string>

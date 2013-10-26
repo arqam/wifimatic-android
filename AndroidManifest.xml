@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="org.cprados.wificellmanager"
-    android:versionCode="17"
-    android:versionName="1.3.4">
+    android:versionCode="18"
+    android:versionName="1.3.5">
 
     <!-- Permissions -->
     <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="18"/>    
@@ -15,8 +15,6 @@
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 	<uses-permission android:name="com.android.vending.BILLING" />
     <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>      
-	<uses-feature android:name="android.hardware.wifi" android:required="true"  />
-	<uses-feature android:name="android.hardware.telephony" android:required="true"  />	
 
 	<application
         android:icon="@drawable/ic_launcher_icon"

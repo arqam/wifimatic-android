@@ -298,8 +298,8 @@ public class ManagerService extends Service {
                     
             // An unknow or dissabled cell is not added
             //enabled &= DataManager.getCellEnabled(this, CellStateManager.getCid(mStateData), CellStateManager.getLac(mStateData));
-            enabled &= (CellStateManager.getCid(mStateData) >= CellStateManager.CELL_UNKNOWN)
-                    && (CellStateManager.getLac(mStateData) >= CellStateManager.CELL_UNKNOWN);
+            enabled &= ((CellStateManager.getCid(mStateData) > CellStateManager.CELL_UNKNOWN)
+                    && (CellStateManager.getLac(mStateData) > CellStateManager.CELL_UNKNOWN));
             break;
             
         case CREATE_DEFERRED_OFF:
