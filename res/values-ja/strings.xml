@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Tab names -->
+    <string name="tab_title_options">オプション</string>
+    <string name="tab_title_wifi_list">Wi-Fi</string>
+    <string name="tab_title_time_options">スケジュール</string>
+    <string name="tab_title_audit_trail">履歴</string>
+
+    <!-- Main preferences activity  -->
+    <string name="app_name">Wi-Fi Matic</string>
+    <string name="app_version"><b>Wi-Fi Matic 1.3.5</b></string>
+    <string name="preference_title_add_wifis">Wi-Fiを記憶する</string>
+    <string name="preference_summary_add_wifis">新しいく接続されたWi-Fiを記憶する</string>
+    <string name="preference_title_freq">チェック間隔</string>
+    <string name="preference_summary_freq">所在地をチェックする頻度</string>
+    <string name="preference_title_notifications">通知を表示する</string>
+    <string name="preference_summary_notifications">各アクションの通知</string>
+    <string name="preference_title_activate">Wi-Fi Maticの有効化</string>
+    <string name="preference_summary_activate">自動Wi-Fi管理の有効化</string>
+    <string name="preference_title_advanced">高度な設定</string>
+    <string name="preference_summary_advanced">高度な使用方法に関する設定</string>
+
+    <!-- Location + wifi state descriptions -->
+    <string name="state_description_in_con">%sに接続済み</string>
+    <plurals name="state_description_in_disc">
+        <item quantity="one">Wi-Fi on, 付近に1個のネットワーク</item>
+        <item quantity="other">Wi-Fi on, 付近に%d個のネットワーク</item>
+    </plurals>
+    <plurals name="state_description_in_off">
+        <item quantity="one">Wi-Fi off, 付近に1個のネットワーク</item>
+        <item quantity="other">Wi-Fi off, 付近に%d個のネットワーク</item>
+    </plurals>
+    <string name="state_description_out_disc">Wi-Fi on, エリア外</string>
+    <string name="state_description_out_off">Wi-Fi off, エリア外</string>
+    <string name="state_description_out_con">%sに接続済み, エリア外</string>
+    <string name="state_description_unk_disc">Wi-Fi on, 圏外</string>
+    <string name="state_description_unk_off">Wi-Fi off, 圏外</string>
+    <string name="state_description_unk_con">%sに接続済み, 圏外</string>
+
+    <!-- Location and wifi change events description -->
+    <string name="state_event_description_init">初期化中</string>
+    <plurals name="state_event_description_in">
+        <item quantity="one">Wi-Fiネットワーク付近</item>
+        <item quantity="other">%d個のWi-Fiネットワーク付近</item>
+    </plurals>
+    <string name="state_event_description_out">Wi-Fiエリア外</string>
+    <string name="state_event_description_unk">圏外</string>
+    <string name="state_event_description_con">%sに接続済み</string>
+    <string name="state_event_description_disc">Wi-Fi on</string>
+    <string name="state_event_description_off">Wi-Fi off</string>
+
+    <!-- Actions description -->
+    <string name="state_action_description_add">Wi-Fi所在地を記憶しました</string>
+    <string name="state_action_description_on">Wi-Fi有効化中</string>
+    <string name="state_action_description_off">Wi-Fi無効化中</string>
+    <string name="requested_action_scheduled_on">スケジュールによるWi-Fi有効化</string>
+    <string name="requested_action_scheduled_off">スケジュールによるWi-Fi無効化</string>
+    <string name="requested_action_deferred_off">切断後%d秒経過</string>
+
+    <!-- Wifi list activity  -->
+    <string name="category_title_wifis">記憶したWi-Fiネットワーク</string>
+    <plurals name="preference_summary_wifi">
+        <item quantity="one">このWi-Fiネットワーク周辺のセル数: %d</item>
+        <item quantity="other">このWi-Fiネットワーク周辺のセル数: %d</item>
+    </plurals>
+    <string name="preference_summary_wifi_disabled">無効化したWi-Fiネットワーク</string>
+
+    <!-- Buttons bar texts -->
+    <string name="button_title_enable_wifi">有効化</string>
+    <string name="button_title_disable_wifi">無効化</string>
+    <string name="button_title_delete_wifi">削除</string>
+
+    <!-- Context menu items -->
+    <string name="context_menu_label_edit">Wi-Fiの編集</string>
+    <string name="context_menu_label_edit_cells">セルIDの編集</string>
+    <string name="context_menu_shortcut_edit">e</string>
+    <string name="context_menu_label_toggle_wifi_on">Wi-Fiの有効化</string>
+    <string name="context_menu_label_toggle_wifi_off">Wi-Fiの無効化</string>
+    <string name="context_menu_shortcut_toggle_wifi">w</string>
+    <string name="context_menu_label_help">情報</string>
+    <string name="context_menu_shortcut_help">h</string>
+    <string name="toast_label_switching_wifi_off">Wi-Fi無効化中</string>
+    <string name="toast_label_switching_wifi_on">Wi-Fi有効化中</string>
+
+    <!-- Help About dialog  -->
+    <string name="activity_about_text_info">あなたのいる場所に応じて自動的にWi-Fiを有効化／無効化します。\
+バッテリー消費と事業者ネットワーク経由のデータ通信量を抑えます。\n\n
+私の妻Ericaに捧ぐ :-)\n\n\
+Copyright &#169; 2012, 2013, 2014 Carlos Prados\n\
+&lt;wifimatic.app@gmail.com&gt;</string>
+    <string name="button_title_help">ヘルプ</string>
+    <string name="button_title_google_play">評価</string>
+    <string name="url_app_site">http://sites.google.com/site/wifimaticapp/</string>
+    <string name="url_google_play_site">http://play.google.com/store/apps/details?id=org.cprados.wificellmanager</string>
+    <string name="url_amazon_marketplace_site">http://www.amazon.com/gp/mas/dl/android?p=org.cprados.wificellmanager</string>
+
+    <!-- Wifi Actions preferences activity  -->
+    <string name="category_actions_wifi">当Wi-Fiの動作</string>
+    <string name="preference_title_action_wifi_on">自動有効化</string>
+    <string name="preference_summary_action_wifi_on">エリア内に入ったらWi-Fiを有効化する</string>
+    <string name="preference_title_action_wifi_off">自動無効化</string>
+    <string name="preference_summary_action_wifi_off">エリア外に出たらWi-Fiを無効化する</string>
+    <string name="preference_title_action_wifi_add">新しい所在地の追加</string>
+    <string name="preference_summary_action_wifi_add">新しい所在地を記録する</string>
+    <string name="category_title_cells">記憶所在地</string>
+    <string name="preference_title_cell_description">セル: %1$d-%2$d</string>
+    <string name="preference_summary_cell_description">GSM/WCDMA/CDMAセルID</string>
+    <string name="preference_summary_cell_disabled">無効化したセルID</string>
+
+    <!-- Time Interval Preferences activity  -->
+    <string name="preference_title_time_interval_enable">無効化スケジュール</string>
+    <string name="preference_summary_time_interval_enable">Wi-Fi無効化のスケジュール</string>
+    <string name="preference_title_time_interval_begin">無効化する時間</string>
+    <string name="preference_summary_time_interval_begin">設定時間にWi-Fiを無効化する</string>
+    <string name="preference_title_time_interval_end">有効化する時間</string>
+    <string name="preference_summary_time_interval_end">設定時間にエリア内なら、Wi-Fiを有効化する</string>
+    <string name="preference_button_time_set">OK</string>
+    <string name="preference_button_time_cancel">Cancel</string>
+
+    <!-- Advanced Preferences activity -->
+    <string name="categoty_title_location">所在地チェック</string>
+    <string name="preference_title_turn_on_screen">スクリーンON</string>
+    <string name="preference_summary_turn_on_screen">所在地チェック中にスクリーンをON</string>
+    <string name="preference_title_force_update_location">所在地情報を強制更新</string>
+    <string name="preference_summary_force_update_location">最新の所在地情報の取得</string>
+    <string name="dialog_text_turn_on_screen">スクリーンがOFFの場合、所在地情報の更新ができないデバイスがあります。\n\n
+このオプションは、所在地チェック時に瞬時にスクリーンをONにします。\n\n
+チェック間隔の間に同一場所に滞在しても、スクリーンを手動でONした時だけ、\
+Wi-Fiが自動的に有効化／無効化される場合、このオプションを試してください。</string>
+    <string name="dialog_text_force_update_location">スクリーンがOFFの場合、所在地情報をアップデートできないデバイスがあります。\n\n
+このオプションは、スクリーンOFF中に強制的に所在地情報を更新させます。\n\n
+チェック間隔の間に同一場所に滞在しても、スクリーンを手動でONした時だけ、\
+Wi-Fiが自動的に有効化／無効化される場合、このオプションを試してください。</string>
+    <string name="dialog_button_confirm_preference_ok">OK</string>
+    <string name="dialog_button_confirm_preference_cancel">Cancel</string>
+    <string name="categoty_title_advanced_behavior">高度な動作設定</string>
+    <string name="preference_title_off_after_disc_timeout">切断タイムアウト</string>
+    <string name="preference_summary_off_after_disc_timeout">切断後にWi-Fiを無効化</string>
+    <string name="dialog_text_off_after_disc_timeout"><b>実験的機能\n</b>この設定では、設定した時間の間切断されているとWi-FiをOFFにします。\
+Wi-Fi範囲から離れた際に、Wi-FiをOFFにする時間を短縮します。\n\n
+しかし、これは思ったほどよいアイデアではないかもしれません。設定済みWi-Fi所在地にいる際に、Wi-Fi範囲内から出てから再度範囲内に戻ると、Wi-Fiは自動的にONになりません。</string>
+    <string name="preference_title_mobile_data_managed">モバイルデータ通信の無効化</string>
+    <string name="preference_summary_mobile_data_managed">設定済みWi-Fi接続時</string>
+    <string name="dialog_text_mobile_data_managed"><b>重要な警告\n</b>このオプションでは、モバイルデータ設定を最初に有効にした場合、設定済みWi-Fiネットワーク接続中はモバイルデータ設定を無効化し、Wi-Fi切断後にモバイルデータ通信を有効化します。\n\n
+モバイルデータ通信有効化は、追加料金が必要かもしれません。このオプションは自己責任でお使いください。</string>
+    <string name="preference_title_unk_location_activates_wifi">圏外でWi-Fi有効化</string>
+    <string name="preference_summary_unk_location_activates_wifi">モバイル通信圏外の場所でWi-Fiを有効化</string>
+    <string name="dialog_text_unk_location_activates_wifi">Wi-Fi Maticはデバイスの場所を認識するためにモバイル通信圏内にいることが必要です。このオプションは、モバイル通信圏外の場所でWi-Fiを有効化します。\n\n\
+バッテリ消費が増えるかもしれませんが、あなたのWi-Fiネットワークが圏外にあるのであれば、このオプションが最適です。</string>
+
+    <!-- Welcome dialog -->
+    <string name="dialog_text_welcome_1"><b>Wi-Fi Maticへようこそ！</b>\n\n\
+Wi-Fi Maticはあなたのいる場所に応じて自動的にデバイスのWi-Fiを有効化／無効化し、バッテリー消費と事業者ネットワーク経由のデータ通信量を抑えます。\n\n\
+このウィザードは簡単な3ステップでWi-Fi Maticの設定を行います。</string>
+    <string name="dialog_text_welcome_2"><b>Step 1:</b>\n\n「Wi-Fi Maticの有効化」を選択してください。Wi-Fiの自動有効化／無効化機能をONにします。</string>
+    <string name="dialog_text_welcome_3a"><b>Step 2:</b>\n\n現在Wi-Fiネットワークに接続していません。Wi-Fiネットワークに接続して、Wi-Fi Maticに所在地を記憶させるために、「Wi-Fi設定」を選択してください。操作が完了したら、「戻る」ボタンを押してください。\n\n\
+この操作は、後からAndoridのメニューの「設定」→「無線とネットワーク」からも実施できます。</string>
+    <string name="dialog_text_welcome_3b">&lt;b&gt;Step 2:&lt;/b&gt;&lt;br&gt;&lt;br&gt;現在Wi-Fiネットワークに接続済みです: &lt;b&gt;%s&lt;/b&gt;.&lt;br&gt;&lt;br&gt;Wi-Fi Maticが所在地を記憶します。</string>
+    <string name="dialog_text_welcome_4"><b>Step 3:</b>\n\n設定完了！「完了」を選択してウィザードを終了し、Wi-Fi Maticへ戻ってください\n\n\
+アプリケーションメニューの「情報」から、より詳しい情報を参照できます。</string>
+    <string name="dialog_button_welcome_next">次へ &gt;&gt;</string>
+    <string name="dialog_button_welcome_back">&lt;&lt; 戻る</string>
+    <string name="dialog_button_welcome_finish">完了</string>
+    <string name="dialog_text_welcome_activate"><b>Wi-Fi Maticの有効化:</b></string>
+    <string name="dialog_text_welcome_wifi_settings"><b>Wi-Fi設定:</b></string>
+    <string name="dialog_text_welcome_dont_show"><b>再度表示しない:</b></string>
+
+    <!-- Audit trail activity  -->
+    <string name="activity_audit_trail_footer_title">Tap to look for more</string>
+    <string name="activity_audit_trail_footer_summary">Showing events until %s</string>
+    <string name="activity_audit_trail_empty">履歴はありません</string>
+
+    <!-- Donate activity -->
+    <string name="preference_donate_title">寄付する</string>
+    <string name="preference_donate_summary">履歴機能を有効化するためにGoogle Playで寄付をしてください</string>
+    <string name="market_billing_donation_sku2">org.cprados.wificellmanager.donation</string>
+    <string name="preference_history_example_title">例を見る</string>
+    <string name="preference_history_example_summary">履歴機能がどのようなものか見る</string>
+    <string name="url_history_example">https://sites.google.com/site/wifimaticapp/#History</string>
+
+</resources>
