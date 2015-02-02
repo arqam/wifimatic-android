@@ -9,7 +9,7 @@
 
     <!-- Main preferences activity  -->
     <string name="app_name">Wi-Fi Matic</string>
-    <string name="app_version"><b>Wi-Fi Matic 1.3.5</b></string>
+    <string name="app_version"><b>Wi-Fi Matic 1.3.6</b></string>
     <string name="preference_title_add_wifis">Wi-Fiを記憶する</string>
     <string name="preference_summary_add_wifis">新しいく接続されたWi-Fiを記憶する</string>
     <string name="preference_title_freq">チェック間隔</string>
@@ -87,7 +87,7 @@
     <string name="activity_about_text_info">あなたのいる場所に応じて自動的にWi-Fiを有効化／無効化します。\
 バッテリー消費と事業者ネットワーク経由のデータ通信量を抑えます。\n\n
 私の妻Ericaに捧ぐ :-)\n\n\
-Copyright &#169; 2012, 2013, 2014 Carlos Prados\n\
+Copyright &#169; 2012 - 2015 Carlos Prados\n\
 &lt;wifimatic.app@gmail.com&gt;</string>
     <string name="button_title_help">ヘルプ</string>
     <string name="button_title_google_play">評価</string>

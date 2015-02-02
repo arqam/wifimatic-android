@@ -18,11 +18,10 @@
 
 package org.cprados.wificellmanager.ui;
 
+
 import org.cprados.wificellmanager.DataManager;
 import org.cprados.wificellmanager.R;
 import org.cprados.wificellmanager.StateMachine.StateEvent;
-import org.cprados.wificellmanager.billing.BillingService;
-import org.cprados.wificellmanager.billing.DonationManager;
 import org.cprados.wificellmanager.sys.NotificationManager;
 import org.cprados.wificellmanager.sys.WifiStateManager;
 
@@ -115,24 +114,11 @@ public class Preferences extends TabActivity {
         
         // Center tabs widget
         tabHost.getTabWidget().setGravity(Gravity.CENTER);
-        
-        // Register the donation process observer
-        DonationManager.runPurchaseObserver(this);
-        
+
         if (savedInstanceState == null) {
-            
-            // Restore ip app billing managed transactions the first time activity is created
-            if (!DataManager.getRestoredTransactions(this)) {                
-                BillingService billingService = DonationManager.runBillingService(getApplicationContext());
-                
-                if (billingService != null) {
-                    billingService.restoreTransactions();
-                }
-            }
-            
-            // Invokes Welcome Dialog the first time the activity is created            
+            // Creates Welcome Dialog the first time the activity is created
             welcomeDialog();
-        }        
+        }
     }
 
     /** If app has not been configured shows welcome dialog otherwise disables it */
@@ -184,14 +170,7 @@ public class Preferences extends TabActivity {
     /** Destroy callback */
     @Override
     protected void onDestroy() {
-        super.onDestroy(); 
-        
-        // Unregisters this activities observer of purchase process
-        DonationManager.releasePurchaseObserver();
-
-        // Releases billing service if it was initialized
-        DonationManager.releaseBillingService();
-
+        super.onDestroy();
         System.gc();
     }
 
@@ -344,5 +323,5 @@ public class Preferences extends TabActivity {
             
         // Sends a broadcast to the  preferences activity to refresh contents
         context.sendBroadcast(intent);   
-    }    
+    }
 }

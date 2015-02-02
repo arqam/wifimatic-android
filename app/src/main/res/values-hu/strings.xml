@@ -9,7 +9,7 @@
 
     <!-- Main preferences activity  -->
     <string name="app_name">Wi-Fi Matic</string>
-    <string name="app_version"><b>Wi-Fi Matic 1.3.5</b></string>   
+    <string name="app_version"><b>Wi-Fi Matic 1.3.6</b></string>
     <string name="preference_title_add_wifis">Emlékezzen a Wi-Fikre</string>
     <string name="preference_summary_add_wifis">Emlékezzen az új kapcsolatokra</string>
     <string name="preference_title_freq">Ellenőrzés gyakorisága</string>
@@ -88,7 +88,7 @@
 a tartózkodási helyének megfelelően, \
 ezzel akkuidőt és mobil adatforgalmat takarít meg.\n\n\
 Feleségemnek, Erica-nak ajánlva :-)\n\n\
-Copyright &#169; 2012, 2013 Carlos Prados\n\
+Copyright &#169; 2012 - 2015 Carlos Prados\n\
 &lt;wifimatic.app@gmail.com&gt;</string>
     <string name="button_title_help">Segítség</string>
     <string name="button_title_google_play">Értékel</string>
