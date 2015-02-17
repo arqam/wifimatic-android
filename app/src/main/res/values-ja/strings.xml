@@ -11,7 +11,7 @@
     <string name="app_name">Wi-Fi Matic</string>
     <string name="app_version"><b>Wi-Fi Matic 1.3.6</b></string>
     <string name="preference_title_add_wifis">Wi-Fiを記憶する</string>
-    <string name="preference_summary_add_wifis">新しいく接続されたWi-Fiを記憶する</string>
+    <string name="preference_summary_add_wifis">新しく接続されたWi-Fiを記憶する</string>
     <string name="preference_title_freq">チェック間隔</string>
     <string name="preference_summary_freq">所在地をチェックする頻度</string>
     <string name="preference_title_notifications">通知を表示する</string>
@@ -103,7 +103,7 @@ Copyright &#169; 2012 - 2015 Carlos Prados\n\
     <string name="preference_summary_action_wifi_off">エリア外に出たらWi-Fiを無効化する</string>
     <string name="preference_title_action_wifi_add">新しい所在地の追加</string>
     <string name="preference_summary_action_wifi_add">新しい所在地を記録する</string>
-    <string name="category_title_cells">記憶所在地</string>
+    <string name="category_title_cells">記憶済み所在地</string>
     <string name="preference_title_cell_description">セル: %1$d-%2$d</string>
     <string name="preference_summary_cell_description">GSM/WCDMA/CDMAセルID</string>
     <string name="preference_summary_cell_disabled">無効化したセルID</string>
@@ -142,7 +142,7 @@ Wi-Fi範囲から離れた際に、Wi-FiをOFFにする時間を短縮します�
 しかし、これは思ったほどよいアイデアではないかもしれません。設定済みWi-Fi所在地にいる際に、Wi-Fi範囲内から出てから再度範囲内に戻ると、Wi-Fiは自動的にONになりません。</string>
     <string name="preference_title_mobile_data_managed">モバイルデータ通信の無効化</string>
     <string name="preference_summary_mobile_data_managed">設定済みWi-Fi接続時</string>
-    <string name="dialog_text_mobile_data_managed"><b>重要な警告\n</b>このオプションでは、モバイルデータ設定を最初に有効にした場合、設定済みWi-Fiネットワーク接続中はモバイルデータ設定を無効化し、Wi-Fi切断後にモバイルデータ通信を有効化します。\n\n
+    <string name="dialog_text_mobile_data_managed"><b>重要な警告\n</b>このオプションでは、モバイルデータ設定が有効の場合、設定済みWi-Fiネットワーク接続中はモバイルデータ設定を無効化し、Wi-Fi切断後にモバイルデータ通信を有効化します。\n\n
 モバイルデータ通信有効化は、追加料金が必要かもしれません。このオプションは自己責任でお使いください。</string>
     <string name="preference_title_unk_location_activates_wifi">圏外でWi-Fi有効化</string>
     <string name="preference_summary_unk_location_activates_wifi">モバイル通信圏外の場所でWi-Fiを有効化</string>
