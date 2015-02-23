@@ -181,6 +181,6 @@ Wi-Fi Matic автоматически активирует и деактиви�
     <string name="market_billing_donation_sku2">org.cprados.wificellmanager.donation</string>
     <string name="preference_history_example_title">Смотреть пример</string>
     <string name="preference_history_example_summary">Посмотрите, как будет выглядеть вкладка История</string>   
-    <string name="url_history_example">https://sites.google.com/site/wifimaticapp/#History</string> 
+    <string name="url_history_example">https://sites.google.com/site/wifimaticapp/home/configuration#History</string> 
     
 </resources>
