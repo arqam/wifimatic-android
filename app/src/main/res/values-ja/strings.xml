@@ -177,6 +177,6 @@ Wi-Fi Maticはあなたのいる場所に応じて自動的にデバイスのWi-
     <string name="market_billing_donation_sku2">org.cprados.wificellmanager.donation</string>
     <string name="preference_history_example_title">例を見る</string>
     <string name="preference_history_example_summary">履歴機能がどのようなものか見る</string>
-    <string name="url_history_example">https://sites.google.com/site/wifimaticapp/#History</string>
+    <string name="url_history_example">https://sites.google.com/site/wifimaticapp/home/configuration#History</string>
 
 </resources>

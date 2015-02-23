@@ -181,6 +181,6 @@ Voor informatie ga naar het <b>Info</b> aplicatie menu.</string>
     <string name="market_billing_donation_sku2">org.cprados.wificellmanager.donation</string>
     <string name="preference_history_example_title">Voorbeeld tonen</string>
     <string name="preference_history_example_summary">Kijk hoe de geschiedenis tab er uit kan zien</string>
-    <string name="url_history_example">https://sites.google.com/site/wifimaticapp/#History</string> 
+    <string name="url_history_example">https://sites.google.com/site/wifimaticapp/home/configuration#History</string> 
     
 </resources>

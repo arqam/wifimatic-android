@@ -181,6 +181,6 @@ További információkért válassza az alkalmazás menüjéből az <b>Infó</b>
     <string name="market_billing_donation_sku2">org.cprados.wificellmanager.donation</string>
     <string name="preference_history_example_title">Lásd egy példa</string>
     <string name="preference_history_example_summary">Nézze meg, hogyan az Előzmények fülre nézne</string>   
-    <string name="url_history_example">https://sites.google.com/site/wifimaticapp/#History</string> 
+    <string name="url_history_example">https://sites.google.com/site/wifimaticapp/home/configuration#History</string> 
     
 </resources>

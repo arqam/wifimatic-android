@@ -181,6 +181,6 @@ Para más información puedes ir a <b>Ayuda</b> desde el menú de la aplicación
     <string name="market_billing_donation_sku2">org.cprados.wificellmanager.donation</string>            
     <string name="preference_history_example_title">Ver un ejemplo</string>
     <string name="preference_history_example_summary">Ver cómo quedaría el tab de Historial</string>   
-    <string name="url_history_example">https://sites.google.com/site/wifimaticapp/#History</string> 
+    <string name="url_history_example">https://sites.google.com/site/wifimaticapp/home/configuration#History</string> 
     
 </resources>

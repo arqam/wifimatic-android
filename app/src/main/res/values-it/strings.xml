@@ -181,6 +181,6 @@ Per maggiori informazioni puoi andare su <b>Info</b> dal menu dell\'applicazione
     <string name="market_billing_donation_sku2">org.cprados.wificellmanager.donation</string>
     <string name="preference_history_example_title">Vedere un esempio</string>
     <string name="preference_history_example_summary">Vedere come la scheda Cronologia sarà simile</string>   
-    <string name="url_history_example">https://sites.google.com/site/wifimaticapp/#History</string> 
+    <string name="url_history_example">https://sites.google.com/site/wifimaticapp/home/configuration#History</string> 
            
 </resources>
