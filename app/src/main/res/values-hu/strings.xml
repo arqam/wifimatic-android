@@ -2,7 +2,7 @@
 <resources>
 
     <!-- Tab names -->
-    <string name="tab_title_options">Opciók</string>
+    <string name="tab_title_options">Beállítások</string>
     <string name="tab_title_wifi_list">Wi-Fi hálózatok</string>
     <string name="tab_title_time_options">Ütemezés</string>
     <string name="tab_title_audit_trail">Előzmények</string>
@@ -29,14 +29,14 @@
     </plurals>
     <plurals name="state_description_in_off">
         <item quantity="one">A Wi-Fi inaktív, egy hálózat a közelben</item>
-        <item quantity="other">A Wi-Fi inaktív, %d hálózat a közelben</item>    
+        <item quantity="other">A Wi-Fi inaktív, %d hálózat a közelben</item>
     </plurals>
     <string name="state_description_out_disc">A Wi-Fi aktív, nincs ismert hálózat</string>
     <string name="state_description_out_off">A Wi-Fi inaktív, nincs ismert hálózat</string>
     <string name="state_description_out_con">Csatlakozva: %s, nincs ismert hálózat</string>
     <string name="state_description_unk_disc">A Wi-Fi aktív, nincs lefedettség</string>
     <string name="state_description_unk_off">A Wi-Fi inaktív, nincs lefedettség</string>
-    <string name="state_description_unk_con">Csatlakozva: %s, Nincs lefedettség</string>     
+    <string name="state_description_unk_con">Csatlakozva: %s, Nincs lefedettség</string>
     
     <!-- Location and wifi change events description -->
     <string name="state_event_description_init">Inicializálás</string>
@@ -53,9 +53,9 @@
     <!-- Actions description -->
     <string name="state_action_description_add">Wi-Fi megjegyezve</string>
     <string name="state_action_description_on">Wi-Fi aktiválása</string>
-    <string name="state_action_description_off">Wi-Fi kikapcsolása</string>    
+    <string name="state_action_description_off">Wi-Fi kikapcsolása</string>
     <string name="requested_action_scheduled_on">Időzített Wi-Fi aktiválás</string>
-    <string name="requested_action_scheduled_off">Időzített Wi-Fi kikapcsolás</string>       
+    <string name="requested_action_scheduled_off">Időzített Wi-Fi kikapcsolás</string>
     <string name="requested_action_deferred_off">%d másodperc kapcsolat nélkül</string>
     
     <!-- Wifi list activity  -->
@@ -73,7 +73,7 @@
 
     <!-- Context menu items -->
     <string name="context_menu_label_edit">Wi-Fik szerkesztése</string>
-    <string name="context_menu_label_edit_cells">Megjegyzett helyek szerkesztése</string>    
+    <string name="context_menu_label_edit_cells">Megjegyzett helyek szerkesztése</string>
     <string name="context_menu_shortcut_edit">e</string>
     <string name="context_menu_label_toggle_wifi_on">Wi-Fi aktiválása</string>
     <string name="context_menu_label_toggle_wifi_off">Wi-Fi kikapcsolása</string>
@@ -94,7 +94,7 @@ Copyright &#169; 2012 - 2015 Carlos Prados\n\
     <string name="button_title_google_play">Értékel</string>
     <string name="url_app_site">http://sites.google.com/site/wifimaticapp/</string>
     <string name="url_google_play_site">http://play.google.com/store/apps/details?id=org.cprados.wificellmanager</string>
-    <string name="url_amazon_marketplace_site">http://www.amazon.com/gp/mas/dl/android?p=org.cprados.wificellmanager</string>    
+    <string name="url_amazon_marketplace_site">http://www.amazon.com/gp/mas/dl/android?p=org.cprados.wificellmanager</string>
     
     <!-- Wifi Actions preferences activity  -->
     <string name="category_actions_wifi">Tevékenységek ezzel a Wi-Fivel</string>
@@ -103,43 +103,43 @@ Copyright &#169; 2012 - 2015 Carlos Prados\n\
     <string name="preference_title_action_wifi_off">Auto kikapcsolás</string>
     <string name="preference_summary_action_wifi_off">Kikapcsolja a Wi-Fit távozáskor</string>
     <string name="preference_title_action_wifi_add">Új helyek megjegyzése</string>
-    <string name="preference_summary_action_wifi_add">Jegyezze meg az új helyeket</string>    
+    <string name="preference_summary_action_wifi_add">Jegyezze meg az új helyeket</string>
     <string name="category_title_cells">Megjegyzett helyek</string>
     <string name="preference_title_cell_description">Cella: %1$d-%2$d</string>
     <string name="preference_summary_cell_description">GSM/WCDMA/CDMA cella id</string>
-    <string name="preference_summary_cell_disabled">Letiltott cella id</string>            
+    <string name="preference_summary_cell_disabled">Letiltott cella id</string>
 
     <!-- Time Interval Preferences activity  -->
     <string name="preference_title_time_interval_enable">Kikapcsolás ütemezése</string>
-    <string name="preference_summary_time_interval_enable">Wi-Fi kikapcsolásának ütemezése</string>    
+    <string name="preference_summary_time_interval_enable">Wi-Fi kikapcsolásának ütemezése</string>
     <string name="preference_title_time_interval_begin">Kikapcsolás időpontja</string>
     <string name="preference_summary_time_interval_begin">A Wi-Fi kikapcsolódik ekkor:</string>
     <string name="preference_title_time_interval_end">Bekapcsolás időpontja</string>
-    <string name="preference_summary_time_interval_end">Ha van ismert Wi-Fi, bekapcsol ekkor:</string>    
+    <string name="preference_summary_time_interval_end">Ha van ismert Wi-Fi, bekapcsol ekkor:</string>
     <string name="preference_button_time_set">Ok</string>
     <string name="preference_button_time_cancel">Mégsem</string>
     
     <!-- Advanced Preferences activity -->
-    <string name="categoty_title_location">Helymeghatározás</string>        
-    <string name="preference_title_turn_on_screen">Kijelző bekapcsolása</string>    
+    <string name="categoty_title_location">Helymeghatározás</string>
+    <string name="preference_title_turn_on_screen">Kijelző bekapcsolása</string>
     <string name="preference_summary_turn_on_screen">A kijelző bekapcsol kereséskor</string>
-    <string name="preference_title_force_update_location">Kényszerfrissítés</string>    
+    <string name="preference_title_force_update_location">Kényszerfrissítés</string>
     <string name="preference_summary_force_update_location">Mindig friss helyzetet használjon</string>
     <string name="dialog_text_turn_on_screen">Egyes készülékeken nem lehet a helyzetet frissíteni, \
 ha a kijelző kikapcsolt állapotban van.\n\n\
 Ezzel a kapcsolóval az app bekapcsolja a kijelzőt minden helymeghatározáskor.\n\n\
 Csak akkor aktiválja ezt az opciót, azt tapasztalja, hogy a megadott ellenőrzési időköz leteltekor \
-csak akkor kapcsolódik be vagy ki a Wi-Fi, ha a kijelzőt manuálisan bekapcsolta.</string>    
+csak akkor kapcsolódik be vagy ki a Wi-Fi, ha a kijelzőt manuálisan bekapcsolta.</string>
     <string name="dialog_text_force_update_location">Egyes készülékeken nem lehet a helyzetet frissíteni, \
 ha a kijelző kikapcsolt állapotban van.\n\n\
 Ez a kapcsoló arra kényszeríti az Androidot, hogy frissítse a helyzetet kikapcsolt kijelzővel is.\n\n\
 Csak akkor aktiválja ezt az opciót, azt tapasztalja, hogy a megadott ellenőrzési időköz leteltekor \
-csak akkor kapcsolódik be vagy ki a Wi-Fi, ha a kijelzőt manuálisan bekapcsolta.</string>    
+csak akkor kapcsolódik be vagy ki a Wi-Fi, ha a kijelzőt manuálisan bekapcsolta.</string>
     <string name="dialog_button_confirm_preference_ok">Ok</string>
-    <string name="dialog_button_confirm_preference_cancel">Mégsem</string>    
+    <string name="dialog_button_confirm_preference_cancel">Mégsem</string>
     <string name="categoty_title_advanced_behavior">Haladó viselkedés</string>
     <string name="preference_title_off_after_disc_timeout">Leszakadás utáni idő</string>
-    <string name="preference_summary_off_after_disc_timeout">Wi-Fi kikapcsolása leszakadás után</string> 
+    <string name="preference_summary_off_after_disc_timeout">Wi-Fi kikapcsolása leszakadás után</string>
     <string name="dialog_text_off_after_disc_timeout"><b>Kísérleti.</b> Ezzel a beállítással a Wi-Fi kikapcsol, ha egy bizonyos ideig nincs aktív kapcsolat. \
 Ezzel lerövidítheti a Wi-Fi kikapcsolásáig eltelő időt, amikor elhagyja a Wi-Fivel fedett területet.\n\n\
 Ez nem nem mindig olyan jó ötlet, mint amilyennek tűnik, mivel a Wi-Fi csak akkor fog automatikusan visszakapcsolódni, ha közben valóban elhagyta a cellák által meghatározott területet és később visszatért oda, ahol a Wi-Fi hálózat van.</string>
@@ -147,7 +147,7 @@ Ez nem nem mindig olyan jó ötlet, mint amilyennek tűnik, mivel a Wi-Fi csak a
     <string name="preference_summary_mobile_data_managed">Ha csatlakozik egy ismert Wi-Fi</string>
     <string name="dialog_text_mobile_data_managed"><b>Fontos figyelmeztetés.</b> Ezzel a lehetoséggel, ha a mobil adatátvitel beállítása kezdetben engedélyezve van, akkor kikapcsol, ha csatlakozik egy ismert Wi-Fi hálózathoz, és akkor kapcsol be újra, miután leválasztotta a Wi-Fi.\n\n\
 Mobil adatátvitel okozhat további díjakat a fiókjába. Ezt a lehetőséget a saját felelősségére.</string>
-    <string name="preference_title_unk_location_activates_wifi">Bekapcsolása Wi-Fi, ha nincs lefedettség</string>   
+    <string name="preference_title_unk_location_activates_wifi">Bekapcsolása Wi-Fi, ha nincs lefedettség</string>
     <string name="preference_summary_unk_location_activates_wifi">Aktiválja helyeken nincs mobil lefedettség</string>
     <string name="dialog_text_unk_location_activates_wifi">Wi-Fi Matic kell mobil lefedettség, hogy tudja, hol van a készülék. Ezzel az opcióval Wi-Fi aktiválódik minden olyan helyen, ahol a készülék elveszíti mobil hálózati lefedettség.\n\n\
 Ez lehet a legjobb megoldás, ha nincs lefedettség, ahol a Wi-Fi hálózat, bár lehet, hogy növeli az akkumulátor használatát.</string>
@@ -166,21 +166,21 @@ További információkért válassza az alkalmazás menüjéből az <b>Infó</b>
     <string name="dialog_button_welcome_next">Tovább &gt;&gt;</string>
     <string name="dialog_button_welcome_back">&lt;&lt; Vissza</string>
     <string name="dialog_button_welcome_finish">Befejez</string>
-    <string name="dialog_text_welcome_activate"><b>Wi-Fi Matic aktiválás:</b></string>    
+    <string name="dialog_text_welcome_activate"><b>Wi-Fi Matic aktiválás:</b></string>
     <string name="dialog_text_welcome_wifi_settings"><b>Wi-Fi beállítások:</b></string>
-    <string name="dialog_text_welcome_dont_show"><b>Többet ne mutassa:</b></string>       
+    <string name="dialog_text_welcome_dont_show"><b>Többet ne mutassa:</b></string>
 
     <!-- Audit trail activity  -->
     <string name="activity_audit_trail_footer_title">Érinste meg, ha többet szeretne látni</string>
     <string name="activity_audit_trail_footer_summary">%s utáni események megjelenítése</string>
-    <string name="activity_audit_trail_empty">Előzmények üres</string>        
+    <string name="activity_audit_trail_empty">Előzmények üres</string>
     
     <!-- Donate activity -->
-    <string name="preference_donate_title">Támogasson</string>
+    <string name="preference_donate_title">Támogatás</string>
     <string name="preference_donate_summary">Kérjük, hogy egy adomány a Google Play aktiválásához történelem</string>
     <string name="market_billing_donation_sku2">org.cprados.wificellmanager.donation</string>
     <string name="preference_history_example_title">Lásd egy példa</string>
-    <string name="preference_history_example_summary">Nézze meg, hogyan az Előzmények fülre nézne</string>   
-    <string name="url_history_example">https://sites.google.com/site/wifimaticapp/#History</string> 
+    <string name="preference_history_example_summary">Nézze meg, hogyan az Előzmények fülre nézne</string>
+    <string name="url_history_example">https://sites.google.com/site/wifimaticapp/#History</string>
     
 </resources>
