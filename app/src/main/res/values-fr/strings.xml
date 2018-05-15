@@ -13,7 +13,7 @@
     <string name="preference_title_add_wifis">Mémoriser Wi-Fis</string>
     <string name="preference_summary_add_wifis">Mémoriser nouveaux Wi-Fis</string>
     <string name="preference_title_freq">Fréquence de vérification</string>
-    <string name="preference_summary_freq">Fréquence de verification de la postion</string>
+    <string name="preference_summary_freq">Fréquence de vérification de la position</string>
     <string name="preference_title_notifications">Afficher notifications</string>
     <string name="preference_summary_notifications">Notifier chaque action</string>
     <string name="preference_title_activate">Activer Wi-Fi Matic</string>
@@ -25,7 +25,7 @@
     <string name="state_description_in_con">Connecté à %s</string>
     <plurals name="state_description_in_disc">
         <item quantity="one">Wi-Fi activé, près d’un réseau</item>
-        <item quantity="other">Wi-Fi active près de %d réseaux</item>
+        <item quantity="other">Wi-Fi activé près de %d réseaux</item>
     </plurals>
     <plurals name="state_description_in_off">
         <item quantity="one">Wi-Fi désactivé près d’un réseau</item>
@@ -69,7 +69,7 @@
     <!-- Buttons bar texts -->                
     <string name="button_title_enable_wifi">Garder</string>
     <string name="button_title_disable_wifi">Ignorer</string>
-    <string name="button_title_delete_wifi">Oublié</string>
+    <string name="button_title_delete_wifi">Oublier</string>
 
     <!-- Context menu items -->
     <string name="context_menu_label_edit">Modifier Wi-Fis</string>
@@ -105,7 +105,7 @@ Copyright &#169; 2012 - 2015 Carlos Prados\n\
     <string name="preference_title_action_wifi_add">Ajouter nouvelles positions</string>
     <string name="preference_summary_action_wifi_add">Mémoriser nouvelles positions</string>    
     <string name="category_title_cells">Positions mémorisées</string>
-    <string name="preference_title_cell_description">Antenne: %1$d-%2$d</string>
+    <string name="preference_title_cell_description">Antenne : %1$d-%2$d</string>
     <string name="preference_summary_cell_description">GSM/WCDMA/CDMA identification antenne</string>
     <string name="preference_summary_cell_disabled">Ignoré identification antenne</string>    
     
@@ -115,7 +115,7 @@ Copyright &#169; 2012 - 2015 Carlos Prados\n\
     <string name="preference_title_time_interval_begin">Heure de désactivation</string>
     <string name="preference_summary_time_interval_begin">Désactiver wifi à:</string>
     <string name="preference_title_time_interval_end">Heure de réactivation</string>
-    <string name="preference_summary_time_interval_end">Réactiver, si près d’un réseau, à:</string>    
+    <string name="preference_summary_time_interval_end">Réactiver, si près d’un réseau, à :</string>    
     <string name="preference_button_time_set">OK</string>
     <string name="preference_button_time_cancel">Annuler</string>
     
